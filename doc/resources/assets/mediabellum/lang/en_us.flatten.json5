@@ -1,0 +1,8 @@
+{
+  hexdoc: {
+    mediabellum: {
+      title: "Media Bellum Book",
+      description: "A Hex Casting addon that aims to make combat with hexes more fair",
+    },
+  }
+}

@@ -1,0 +1,46 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[${versions.kotlin_forge},)"
+license = "MIT"
+
+[[mods]]
+modId = "mediabellum"
+version = "${version}"
+displayName = "Media Bellum"
+logoFile = "assets/mediabellum/icon.png"
+authors = "alexcode10010"
+description = "A Hex Casting addon that aims to make combat with hexes more fair"
+
+[[dependencies.mediabellum]]
+modId = "forge"
+mandatory = true
+versionRange = "[${versions.forge_dependency},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mediabellum]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[${versions.minecraft},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mediabellum]]
+modId = "architectury"
+mandatory = true
+versionRange = "[${versions.architectury},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mediabellum]]
+modId = "cloth_config"
+mandatory = true
+versionRange = "[${versions.cloth_config},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mediabellum]]
+modId = "hexcasting"
+mandatory = true
+versionRange = "[${versions.hexcasting_dependency},)"
+ordering = "NONE"
+side = "BOTH"

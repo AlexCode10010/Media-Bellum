@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+# https://copier.readthedocs.io/en/stable/updating/#never-change-the-answers-file-manually
+_commit: v2.0.4
+_src_path: gh:FallingColors/hexdummy
+advanced: false
+description: A Hex Casting addon that aims to make combat with hexes more fair
+display_name: Media Bellum
+github_repo: media-bellum
+github_user: alexcode10010
+java_package: io.github.alexcode10010.mediabellum
+mappings_name: Mojmap
+minecraft_version_in_mod_version: true
+mod_version: 0.1.0
+modid: mediabellum

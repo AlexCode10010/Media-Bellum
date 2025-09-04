@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "mediabellum",
+  "version": "${version}",
+  "name": "Media Bellum",
+  "description": "A Hex Casting addon that aims to make combat with hexes more fair",
+  "authors": [
+    "alexcode10010"
+  ],
+  "contact": {
+    "homepage": "https://alexcode10010.github.io/media-bellum",
+    "sources": "https://github.com/alexcode10010/media-bellum"
+  },
+  "license": "MIT",
+  "icon": "assets/mediabellum/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [{
+      "adapter": "kotlin",
+      "value": "io.github.alexcode10010.mediabellum.fabric.FabricMediabellum"
+    }],
+    "client": [{
+      "adapter": "kotlin",
+      "value": "io.github.alexcode10010.mediabellum.fabric.FabricMediabellumClient"
+    }],
+    "modmenu": [{
+      "adapter": "kotlin",
+      "value": "io.github.alexcode10010.mediabellum.fabric.FabricMediabellumModMenu"
+    }]
+  },
+  "mixins": [
+    "mediabellum-common.mixins.json",
+    "mediabellum-fabric.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${versions.minecraft}",
+    "fabricloader": ">=${versions.fabric_loader}",
+    "fabric-api": ">=${versions.fabric_api}",
+    "fabric-language-kotlin": ">=${versions.kotlin_fabric}",
+    "architectury": ">=${versions.architectury}",
+    "hexcasting": ">=${versions.hexcasting_dependency}",
+    "cloth-config": ">=${versions.clothConfig}"
+  },
+  "suggests": {
+    "modmenu": ">=${versions.modMenu}"
+  }
+}
