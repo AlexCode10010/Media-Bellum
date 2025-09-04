@@ -12,7 +12,7 @@ object MediabellumActions : MediabellumRegistrar<ActionRegistryEntry>(
     HexRegistries.ACTION,
     { HexActions.REGISTRY },
 ) {
-    val CONGRATULATE = make("congratulate", HexDir.WEST, "eed", OpCongratulate)
+    val CONGRATULATE = make("congratulate", HexDir.NORTHWEST, "eeeeedded", OpCongratulate)
 
     private fun make(name: String, startDir: HexDir, signature: String, action: Action) =
         make(name, startDir, signature) { action }
