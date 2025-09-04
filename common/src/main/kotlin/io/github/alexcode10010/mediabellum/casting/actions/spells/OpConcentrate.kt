@@ -10,7 +10,7 @@ import at.petrak.hexcasting.api.casting.ParticleSpray
 import at.petrak.hexcasting.api.utils.asTranslatedComponent
 import net.minecraft.world.entity.Entity
 
-object OpCongratulate : SpellAction {
+object OpConcentrate : SpellAction {
     override val argc = 1
 
     override fun execute(args: List<Iota>, env: CastingEnvironment): SpellAction.Result {

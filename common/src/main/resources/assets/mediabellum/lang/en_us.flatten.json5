@@ -3,9 +3,9 @@
     book: {
       patterns: {
         spells: {
-          dummy_spells: {
-            "": "Dummy Spells",
-            congratulate: "Remove an entity from the stack, then congratulate them.",
+          concentrate: {
+            "": "Concentrate Media",
+            concentrate: "Remove a position and a number from the stack, then create a media concentration at that position with that power.",
           },
         },
       },
@@ -15,14 +15,14 @@
   hexcasting: {
     action: {
       "mediabellum:": {
-        congratulate: "Congratulate Player",
+        concentrate: "Concentrate Media",
       },
 
       // use this to add shortened versions of pattern names if the full name won't fit in the ingame book
       // you don't need to add an entry for every pattern - the above value will be used as a default
       book: {
         "mediabellum:": {
-          congratulate: "Congratulate",
+          concentrate: "Concentrate",
         },
       },
     },

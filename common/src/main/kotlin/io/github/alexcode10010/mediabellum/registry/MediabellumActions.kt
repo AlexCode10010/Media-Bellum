@@ -6,13 +6,13 @@ import at.petrak.hexcasting.api.casting.math.HexDir
 import at.petrak.hexcasting.api.casting.math.HexPattern
 import at.petrak.hexcasting.common.lib.HexRegistries
 import at.petrak.hexcasting.common.lib.hex.HexActions
-import io.github.alexcode10010.mediabellum.casting.actions.spells.OpCongratulate
+import io.github.alexcode10010.mediabellum.casting.actions.spells.OpConcentrate
 
 object MediabellumActions : MediabellumRegistrar<ActionRegistryEntry>(
     HexRegistries.ACTION,
     { HexActions.REGISTRY },
 ) {
-    val CONGRATULATE = make("congratulate", HexDir.NORTH_WEST, "eeeeedded", OpCongratulate)
+    val CONCENTRATE = make("concentrate", HexDir.NORTH_WEST, "eeeeedded", OpConcentrate)
 
     private fun make(name: String, startDir: HexDir, signature: String, action: Action) =
         make(name, startDir, signature) { action }
